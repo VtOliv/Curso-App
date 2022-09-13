@@ -1,15 +1,28 @@
 import React from 'react';
-import { SafeAreaView, Text } from 'react-native';
-// import { Primeiro, Padrao, Component1, Component2, Estilos } from './src/components';
-import Primeiro from './src/components/Primeiro';
-import Padrao from './src/components/Multi';
+import {
+  SafeAreaView
+} from 'react-native';
+import { 
+  Primeiro, Padrao, 
+  Component1, Component2,
+  Estilos, MinMax, Titulo 
+} from './src/components'
 
-const App = () => {
+const App = () => { 
+
+  console.warn('Aviso')
+
   return (
     <SafeAreaView>
-      <Padrao />
+      <Titulo principal="Cosméticos" secundario="Rosto"/>
+      <MinMax min="2" max="10"/>
+      <MinMax min="5" max="15" label="texto qualquer"/>
+      <MinMax min={60} max={80} label="com numbers"/>
+      <Estilos/>
       <Primeiro />
-      <Text>Teste</Text>
+      <Padrao />
+      <Component1 />
+      <Component2 />
     </SafeAreaView>
   );
 };

@@ -1,9 +1,10 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Text } from 'react-native'
 
 function Primeiro() {
+    return (
+        <Text>Primeiro</Text>
+    )
+}
 
-    return <Text>First Component</Text>
-} 
-
-export default Primeiro;
+export default Primeiro

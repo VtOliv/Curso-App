@@ -1,14 +1,17 @@
-import React from "react";
-import { Text } from "react-native";
+import React from 'react';
+import { Text } from 'react-native'
 
-export default function Padrao() {
-    return <Text>Multi</Text>
+function Padrao() {
+    return <Text>Comp Padrão</Text>
 }
 
-export function Component1() {
-    return <Text>Component1</Text>
+function Component1() {
+    return <Text>Component 1</Text>
 }
 
-export function Component2() {
-    return <Text>Component2</Text>
+function Component2() {
+    return <Text>Component 2</Text>
 }
+
+export default Padrao
+export { Component1, Component2 }
