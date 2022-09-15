@@ -23,13 +23,14 @@ const styles = StyleSheet.create({
         color: '#000',
         fontSize: 60,
         fontWeight: 'bold',
-        padding: 30
+        padding: 30,
+        paddingTop: 0
     },
     History : {
         color: 'gray',
         fontSize: 30,
         fontWeight: 'bold',
-        padding: 10
+        paddingRight: 30
     }
 })
 

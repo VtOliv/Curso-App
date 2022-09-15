@@ -37,7 +37,7 @@ export default function Calculator() {
         if (operation == "*") resultado = parseInt(number[0]) * parseInt(number[1]);
         if (operation == "/") resultado = parseInt(number[0]) / parseInt(number[1]);
 
-        setHistory(number[0]+" "+operation+" "+number[1])
+        setHistory(number[0]+" "+operation+" "+number[1]+" =")
         setDisplay(resultado);
     }
 
