@@ -5,16 +5,15 @@ import {
 import { 
   Primeiro, Padrao, 
   Component1, Component2,
-  Estilos, MinMax, Titulo 
+  Estilos, MinMax, Titulo, Calculator 
 } from './src/components'
+// import Calculadora from './src/components';
 
 const App = () => { 
 
-  console.warn('Aviso')
-
   return (
     <SafeAreaView>
-      <Titulo principal="Cosméticos" secundario="Rosto"/>
+      {/* <Titulo principal="Cosméticos" secundario="Rosto"/>
       <MinMax min="2" max="10"/>
       <MinMax min="5" max="15" label="texto qualquer"/>
       <MinMax min={60} max={80} label="com numbers"/>
@@ -22,7 +21,9 @@ const App = () => {
       <Primeiro />
       <Padrao />
       <Component1 />
-      <Component2 />
+      <Component2 /> */}
+
+      <Calculator />
     </SafeAreaView>
   );
 };
