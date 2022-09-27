@@ -5,7 +5,7 @@ import {
 import { 
   Primeiro, Padrao, 
   Component1, Component2,
-  Estilos, MinMax, Titulo, Calculator 
+  Estilos, MinMax, Titulo, Calculator , Formulario
 } from './src/components'
 // import Calculadora from './src/components';
 
@@ -22,8 +22,8 @@ const App = () => {
       <Padrao />
       <Component1 />
       <Component2 /> */}
-
-      <Calculator />
+      <Formulario />
+      {/* <Calculator /> */}
     </SafeAreaView>
   );
 };
